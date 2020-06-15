@@ -331,6 +331,7 @@ html[dir=ltr] .newsletter-input::placeholder {
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
 }
 .nav-anchor:hover, .nav-anchor:focus {
   color: #ff3d29;
@@ -353,6 +354,7 @@ nav {
   align-items: center;
   font-size: 16px;
   color: #1a1a1a;
+  text-transform: capitalize;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -370,6 +372,9 @@ nav {
   .call span {
     margin: 0 8px;
   }
+}
+html[dir=ltr] .call i {
+  transform: rotate(90deg);
 }
 .call .number {
   font-family: bold;
@@ -578,6 +583,7 @@ html[dir=ltr] .cats-btn {
   font-family: bold;
   display: flex;
   align-items: center;
+  text-transform: capitalize;
 }
 .cats-btn .text span {
   font-size: 16px;
@@ -858,6 +864,7 @@ html[dir=ltr] .cats-dispaly {
   align-items: center;
   justify-content: center;
   font-size: 12px;
+  text-transform: capitalize;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1387,6 +1394,7 @@ html[dir=ltr] .mo-cart-icon {
   text-align: center;
   font-family: med;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
 .feats {
@@ -1431,6 +1439,7 @@ html[dir=ltr] .mo-cart-icon {
 .feat .feat-title {
   font-size: 18px;
   font-family: bold;
+  text-transform: capitalize;
 }
 .feat .feat-desc {
   font-size: 16px;
@@ -1469,6 +1478,7 @@ footer {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   display: inline-flex;
+  text-transform: capitalize;
 }
 .nav-foot-link:hover, .nav-foot-link:focus {
   transform: translateX(-5px);
@@ -1580,6 +1590,10 @@ html[dir=ltr] .nav-foot-link:hover, html[dir=ltr] .nav-foot-link:focus {
   background-color: #ff3d29;
   color: #fff;
   box-shadow: none;
+}
+html[dir=ltr] .arro_top {
+  right: auto;
+  left: 25px;
 }
 
 @media (max-width: 992px) {
