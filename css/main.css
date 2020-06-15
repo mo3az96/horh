@@ -932,7 +932,7 @@ html[dir=ltr] .cats-dispaly {
 }
 @media (max-width: 767px) {
   .pre-loader img {
-    width: 200px;
+    width: 300px;
   }
 }
 .pre-loader .content {
