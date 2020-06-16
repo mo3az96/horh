@@ -864,6 +864,12 @@ html[dir=ltr] .cats-dispaly {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+@media (max-width: 767px) {
+  .product .tools a {
+    height: 40px;
+    font-size: 18px;
+  }
+}
 .product .mo-add-to-cart {
   color: #fff;
   width: 131px;
@@ -881,7 +887,7 @@ html[dir=ltr] .cats-dispaly {
 }
 @media (max-width: 767px) {
   .product .mo-add-to-cart {
-    width: 32px;
+    width: 40px;
   }
 }
 .product .mo-add-to-cart span {
@@ -915,6 +921,11 @@ html[dir=ltr] .cats-dispaly {
   background-color: #ff3d29;
   border-color: #ff3d29;
   color: #fff;
+}
+@media (max-width: 767px) {
+  .product .mo-add-to-wish {
+    width: 40px;
+  }
 }
 
 /*//////////////////////////////preloader//////////////////////////////*/
