@@ -873,7 +873,7 @@ html[dir=ltr] .cats-dispaly {
   .product .tools a {
     font-size: 18px;
     height: 40px;
-    border: 20px;
+    border-radius: 20px;
     margin: 0 5px;
   }
 }
