@@ -36,6 +36,8 @@ $(document).ready(function () {
         responsive: {
             0: {
                 items: 2,
+                stagePadding: 0,
+                margin: 15,
             },
             500: {
                 items: 3,
