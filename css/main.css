@@ -1240,6 +1240,7 @@ html[dir=ltr] .drop-cont .top-dropdown {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
 }
 @media (max-width: 767px) {
   .drop-cont .drop-anchor {
