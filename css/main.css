@@ -850,6 +850,11 @@ html[dir=ltr] .cats-dispaly {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 767px) {
+  .product .tools {
+    padding: 0;
+  }
+}
 .product .tools a {
   margin: 0 3px;
   height: 32px;
@@ -867,6 +872,9 @@ html[dir=ltr] .cats-dispaly {
 @media (max-width: 767px) {
   .product .tools a {
     font-size: 18px;
+    height: 40px;
+    border: 20px;
+    margin: 0 5px;
   }
 }
 .product .mo-add-to-cart {
@@ -886,7 +894,7 @@ html[dir=ltr] .cats-dispaly {
 }
 @media (max-width: 767px) {
   .product .mo-add-to-cart {
-    width: 32px;
+    width: 40px;
   }
 }
 .product .mo-add-to-cart span {
@@ -920,6 +928,11 @@ html[dir=ltr] .cats-dispaly {
   background-color: #ff3d29;
   border-color: #ff3d29;
   color: #fff;
+}
+@media (max-width: 767px) {
+  .product .mo-add-to-wish {
+    width: 40px;
+  }
 }
 
 /*//////////////////////////////preloader//////////////////////////////*/
