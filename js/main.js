@@ -35,10 +35,10 @@ $(document).ready(function () {
         navText: ["<i class='fas fa-chevron-right'></i>", "<i class='fas fa-chevron-left'></i>"],
         responsive: {
             0: {
-                items: 1,
+                items: 2,
             },
             500: {
-                items: 2,
+                items: 3,
             },
             992: {
                 items: 4,

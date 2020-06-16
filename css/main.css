@@ -791,12 +791,6 @@ html[dir=ltr] .cats-dispaly {
 .product {
   width: 100%;
 }
-@media (max-width: 767px) {
-  .product {
-    width: 214px;
-    margin: auto;
-  }
-}
 .product .item-img {
   width: 100%;
   display: block;
@@ -885,6 +879,11 @@ html[dir=ltr] .cats-dispaly {
     width: 151px;
   }
 }
+@media (max-width: 767px) {
+  .product .mo-add-to-cart {
+    width: 32px;
+  }
+}
 .product .mo-add-to-cart span {
   margin: 0 3px;
   -moz-transition: all 0.3s ease-in-out;
@@ -895,6 +894,11 @@ html[dir=ltr] .cats-dispaly {
 .product .mo-add-to-cart .mo-text {
   font-size: 14px;
   font-family: med;
+}
+@media (max-width: 767px) {
+  .product .mo-add-to-cart .mo-text {
+    display: none;
+  }
 }
 .product .mo-add-to-cart:hover {
   background-color: #ff3d29;
